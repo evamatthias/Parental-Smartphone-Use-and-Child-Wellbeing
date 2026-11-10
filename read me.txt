@@ -1,0 +1,39 @@
+
+This folder contains data and associated R script(s) for:
+
+"Parental Smartphone Use and Children’s Emotional Well-Being in Everyday Family Life: Experience Sampling Study"
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+Copyright (c) 2026 Eva Matthias
+
+Below is a checklist of the contents of this folder:
+
+> PSU_CW_analysis_OSF.R
+R script to reproduce the reported statistical analyses.
+
+> PSU_CW_data_OSF.csv
+Data set
+
+> Codebook_PSU_CW_data_OSF.xls
+Codebook
+
+> renv.lock
+Lockfile (renv) listing the exact R version (4.5.2) and versions of all R packages used in the analyses.
+
+> sessionInfo.txt
+Output of sessionInfo() after running the analysis script (R version, operating system, loaded package versions).
+
+To reproduce our analyses:
+1. Download the contents of this folder into the same folder on your device
+2. Open 'PSU_CW_analysis_OSF.R'
+3. Set working directory, and ensure that all relevant packages are installed
+   (optional, to restore the exact package versions used in the analyses: open R in this folder and run
+   install.packages("renv"); renv::restore())
+4. Run the script
+
+
+Should you have any questions about the data or analysis script(s), please contact the corresponding author of the manuscript.
+
+
+
+
